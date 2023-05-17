@@ -1,0 +1,119 @@
+.wraper{
+    width: 56%;
+}
+
+.title-about{
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1;
+    color: #42446E;
+    margin-bottom: 38px;
+    margin-top: 80px;
+}
+
+.subtitle-about{
+    margin-bottom: 64px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.work-experience{
+    display: flex;
+    flex-direction: column;
+}
+
+.work-block{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #A7A7A7;
+}
+
+.work-block-time{
+    display: flex;
+}
+
+.work-block-experience-list{
+    display: flex;
+    align-items: center;
+}
+
+.work-block-experience h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    color: #666666; 
+}
+
+.work-block-experience-list p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    color: #A7A7A7;
+}
+
+.work-time{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 26px;
+    color: #018C0F;
+    padding: 0px 20px;
+    display: inline-block;
+    background: #D7FFE0;
+    border-radius: 100px;
+}
+
+.work-time{
+    position: relative;
+    left: 60px;
+}
+
+.work-block-time p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    color: #A7A7A7;
+}
+
+.work-block-experience-list img{
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.work-block-time img{
+    display: inline-block;
+    margin-right: 6px;
+}
+
+.title-about-education{
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1;
+    color: #42446E;
+    margin-top: 15px;
+    margin-bottom: 38px;
+}
+
+.education-block{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+    .wraper{
+        width: 100%;
+    }
+}

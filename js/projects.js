@@ -152,6 +152,9 @@ const createProjectTemplate = (project) => {
 const dataRender = (data, container) => {
     if (!(typeof data === 'object')) {
         return '';
+    } else if (data.length === 0) {
+        container.innerHTML = "<p class='no__item'>There are no items that satisfy the filter</p>";
+        return;
     }
 
     let content = '';
@@ -162,9 +165,6 @@ const dataRender = (data, container) => {
 
     container.innerHTML = content;
 
-    if (data.length === 0) {
-        container.innerHTML = "<p class='no__item'>There are no items that satisfy the filter</p>";
-    }
 }
 
 const itemIsValid = (dataItem, activeFilters) => {
